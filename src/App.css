@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.react-xl-icons {
+  svg {
+    font-size: 19px;
+    color: #24bdee;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.aHover {
+  position: relative;
+  display: inline;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(currentColor),
+    to(currentColor)
+  );
+  background: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
+  background: -o-linear-gradient(left, currentColor 0%, currentColor 100%);
+  background: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-size: 0 2px;
+  background-position: 0 95%;
+  -webkit-transition: background-size 0.25s
+    cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  -o-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  padding: 0 0 5px 0;
+  background-repeat: no-repeat;
+  display: initial;
+}
+
+.aHover:hover {
+  background-size: 100% 2px;
+}
+
+.IsmageBanner-header-my-xl {
+  background-image: url(https://mdmustafizur.com/wp-content/uploads/2022/11/IMG20211017095507-1-1536x1325.jpg);
+}
+.filterImageColor {
+  filter: url(#wp-duotone-000000-4bbed1-8);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2416ebd2;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.footercopy:hover {
+  color: aliceblue;
+}

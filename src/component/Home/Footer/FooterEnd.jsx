@@ -12,7 +12,7 @@ const FooterEnd = () => {
 
         <Flex w={"full"} justifyContent={"center"} alignItems={"center"} pt={4}>
             <Text color={"gray.300"} >
-            &copy; 2022 <Link className='footercopy' >Md Mustafizur.</Link>All right reserved 
+            &copy; 2023 <Link className='footercopy' >Md Mustafizur.</Link>All right reserved 
             </Text>
         </Flex>
       
